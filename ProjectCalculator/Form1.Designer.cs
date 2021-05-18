@@ -29,13 +29,33 @@ namespace ProjectCalculator
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btnOne = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btnOne
+            // 
+            this.btnOne.Location = new System.Drawing.Point(27, 131);
+            this.btnOne.Name = "btnOne";
+            this.btnOne.Size = new System.Drawing.Size(100, 80);
+            this.btnOne.TabIndex = 0;
+            this.btnOne.Text = "1";
+            this.btnOne.UseVisualStyleBackColor = true;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(484, 561);
+            this.Controls.Add(this.btnOne);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnOne;
     }
 }
 
