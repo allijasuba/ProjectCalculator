@@ -32,6 +32,7 @@ namespace ProjectCalculator
             this.txtBox = new System.Windows.Forms.RichTextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.btnEight = new System.Windows.Forms.Button();
+            this.btnNine = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtBox
@@ -60,11 +61,21 @@ namespace ProjectCalculator
             this.btnEight.Text = "8";
             this.btnEight.UseVisualStyleBackColor = true;
             // 
+            // btnNine
+            // 
+            this.btnNine.Location = new System.Drawing.Point(268, 180);
+            this.btnNine.Name = "btnNine";
+            this.btnNine.Size = new System.Drawing.Size(95, 90);
+            this.btnNine.TabIndex = 3;
+            this.btnNine.Text = "9";
+            this.btnNine.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(634, 611);
+            this.Controls.Add(this.btnNine);
             this.Controls.Add(this.btnEight);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtBox);
@@ -79,6 +90,7 @@ namespace ProjectCalculator
         private System.Windows.Forms.RichTextBox txtBox;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnEight;
+        private System.Windows.Forms.Button btnNine;
     }
 }
 
