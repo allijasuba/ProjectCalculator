@@ -34,6 +34,7 @@ namespace ProjectCalculator
             this.btnEight = new System.Windows.Forms.Button();
             this.btnNine = new System.Windows.Forms.Button();
             this.btnBack = new System.Windows.Forms.Button();
+            this.btnAc = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtBox
@@ -80,12 +81,23 @@ namespace ProjectCalculator
             this.btnBack.TabIndex = 4;
             this.btnBack.Text = "⌫";
             this.btnBack.UseVisualStyleBackColor = true;
+            this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
+            // 
+            // btnAc
+            // 
+            this.btnAc.Location = new System.Drawing.Point(495, 180);
+            this.btnAc.Name = "btnAc";
+            this.btnAc.Size = new System.Drawing.Size(95, 90);
+            this.btnAc.TabIndex = 5;
+            this.btnAc.Text = "AC";
+            this.btnAc.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(634, 611);
+            this.Controls.Add(this.btnAc);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnNine);
             this.Controls.Add(this.btnEight);
@@ -105,6 +117,7 @@ namespace ProjectCalculator
         private System.Windows.Forms.Button btnEight;
         private System.Windows.Forms.Button btnNine;
         private System.Windows.Forms.Button btnBack;
+        private System.Windows.Forms.Button btnAc;
     }
 }
 
