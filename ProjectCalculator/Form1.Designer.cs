@@ -29,45 +29,32 @@ namespace ProjectCalculator
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnSeven = new System.Windows.Forms.Button();
-            this.btnEight = new System.Windows.Forms.Button();
+            this.txtBox = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
-            // btnSeven
+            // txtBox
             // 
-            this.btnSeven.Location = new System.Drawing.Point(27, 131);
-            this.btnSeven.Name = "btnSeven";
-            this.btnSeven.Size = new System.Drawing.Size(100, 80);
-            this.btnSeven.TabIndex = 0;
-            this.btnSeven.Text = "7";
-            this.btnSeven.UseVisualStyleBackColor = true;
-            // 
-            // btnEight
-            // 
-            this.btnEight.Location = new System.Drawing.Point(140, 130);
-            this.btnEight.Name = "btnEight";
-            this.btnEight.Size = new System.Drawing.Size(100, 80);
-            this.btnEight.TabIndex = 1;
-            this.btnEight.Text = "8";
-            this.btnEight.UseVisualStyleBackColor = true;
+            this.txtBox.Location = new System.Drawing.Point(40, 40);
+            this.txtBox.Name = "txtBox";
+            this.txtBox.Size = new System.Drawing.Size(550, 100);
+            this.txtBox.TabIndex = 0;
+            this.txtBox.Text = "";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(484, 561);
-            this.Controls.Add(this.btnEight);
-            this.Controls.Add(this.btnSeven);
+            this.ClientSize = new System.Drawing.Size(634, 611);
+            this.Controls.Add(this.txtBox);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Calculator";
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btnSeven;
-        private System.Windows.Forms.Button btnEight;
+        private System.Windows.Forms.RichTextBox txtBox;
     }
 }
 
