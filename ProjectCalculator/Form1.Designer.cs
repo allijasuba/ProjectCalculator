@@ -30,6 +30,7 @@ namespace ProjectCalculator
         private void InitializeComponent()
         {
             this.txtBox = new System.Windows.Forms.RichTextBox();
+            this.btnSeven = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtBox
@@ -40,11 +41,21 @@ namespace ProjectCalculator
             this.txtBox.TabIndex = 0;
             this.txtBox.Text = "";
             // 
+            // btnSeven
+            // 
+            this.btnSeven.Location = new System.Drawing.Point(40, 180);
+            this.btnSeven.Name = "btnSeven";
+            this.btnSeven.Size = new System.Drawing.Size(95, 90);
+            this.btnSeven.TabIndex = 1;
+            this.btnSeven.Text = "7";
+            this.btnSeven.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(634, 611);
+            this.Controls.Add(this.btnSeven);
             this.Controls.Add(this.txtBox);
             this.Name = "Form1";
             this.Text = "Calculator";
@@ -55,6 +66,7 @@ namespace ProjectCalculator
         #endregion
 
         private System.Windows.Forms.RichTextBox txtBox;
+        private System.Windows.Forms.Button btnSeven;
     }
 }
 
