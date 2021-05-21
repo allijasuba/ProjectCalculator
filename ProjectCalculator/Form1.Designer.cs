@@ -30,7 +30,8 @@ namespace ProjectCalculator
         private void InitializeComponent()
         {
             this.txtBox = new System.Windows.Forms.RichTextBox();
-            this.btnSeven = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.btnEight = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtBox
@@ -41,21 +42,31 @@ namespace ProjectCalculator
             this.txtBox.TabIndex = 0;
             this.txtBox.Text = "";
             // 
-            // btnSeven
+            // button1
             // 
-            this.btnSeven.Location = new System.Drawing.Point(40, 180);
-            this.btnSeven.Name = "btnSeven";
-            this.btnSeven.Size = new System.Drawing.Size(95, 90);
-            this.btnSeven.TabIndex = 1;
-            this.btnSeven.Text = "7";
-            this.btnSeven.UseVisualStyleBackColor = true;
+            this.button1.Location = new System.Drawing.Point(40, 180);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(95, 90);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "7";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // btnEight
+            // 
+            this.btnEight.Location = new System.Drawing.Point(157, 180);
+            this.btnEight.Name = "btnEight";
+            this.btnEight.Size = new System.Drawing.Size(95, 90);
+            this.btnEight.TabIndex = 2;
+            this.btnEight.Text = "8";
+            this.btnEight.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(634, 611);
-            this.Controls.Add(this.btnSeven);
+            this.Controls.Add(this.btnEight);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.txtBox);
             this.Name = "Form1";
             this.Text = "Calculator";
@@ -66,7 +77,8 @@ namespace ProjectCalculator
         #endregion
 
         private System.Windows.Forms.RichTextBox txtBox;
-        private System.Windows.Forms.Button btnSeven;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnEight;
     }
 }
 
