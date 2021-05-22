@@ -39,7 +39,7 @@ namespace ProjectCalculator
 
         private void btnThree_Click(object sender, EventArgs e)
         {
-
+            txtBox.Text = txtBox.Text + "3";
         }
 
         private void button1_Click(object sender, EventArgs e)
