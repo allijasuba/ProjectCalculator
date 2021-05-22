@@ -35,6 +35,7 @@ namespace ProjectCalculator
             this.btnNine = new System.Windows.Forms.Button();
             this.btnBack = new System.Windows.Forms.Button();
             this.btnAc = new System.Windows.Forms.Button();
+            this.btnFour = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtBox
@@ -92,11 +93,21 @@ namespace ProjectCalculator
             this.btnAc.Text = "AC";
             this.btnAc.UseVisualStyleBackColor = true;
             // 
+            // btnFour
+            // 
+            this.btnFour.Location = new System.Drawing.Point(40, 280);
+            this.btnFour.Name = "btnFour";
+            this.btnFour.Size = new System.Drawing.Size(95, 90);
+            this.btnFour.TabIndex = 6;
+            this.btnFour.Text = "4";
+            this.btnFour.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(634, 611);
+            this.Controls.Add(this.btnFour);
             this.Controls.Add(this.btnAc);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnNine);
@@ -118,6 +129,7 @@ namespace ProjectCalculator
         private System.Windows.Forms.Button btnNine;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Button btnAc;
+        private System.Windows.Forms.Button btnFour;
     }
 }
 
