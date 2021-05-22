@@ -43,6 +43,7 @@ namespace ProjectCalculator
             this.btnOne = new System.Windows.Forms.Button();
             this.btnTwo = new System.Windows.Forms.Button();
             this.btnThree = new System.Windows.Forms.Button();
+            this.btnMinus = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtBox
@@ -173,11 +174,22 @@ namespace ProjectCalculator
             this.btnThree.Text = "3";
             this.btnThree.UseVisualStyleBackColor = true;
             // 
+            // btnMinus
+            // 
+            this.btnMinus.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnMinus.Location = new System.Drawing.Point(382, 380);
+            this.btnMinus.Name = "btnMinus";
+            this.btnMinus.Size = new System.Drawing.Size(95, 90);
+            this.btnMinus.TabIndex = 14;
+            this.btnMinus.Text = "-";
+            this.btnMinus.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(634, 611);
+            this.Controls.Add(this.btnMinus);
             this.Controls.Add(this.btnThree);
             this.Controls.Add(this.btnTwo);
             this.Controls.Add(this.btnOne);
@@ -215,6 +227,7 @@ namespace ProjectCalculator
         private System.Windows.Forms.Button btnOne;
         private System.Windows.Forms.Button btnTwo;
         private System.Windows.Forms.Button btnThree;
+        private System.Windows.Forms.Button btnMinus;
     }
 }
 
