@@ -56,5 +56,10 @@ namespace ProjectCalculator
         {
             txtBox.Text = txtBox.Text + "4";
         }
+
+        private void btnFive_Click(object sender, EventArgs e)
+        {
+            txtBox.Text = txtBox.Text + "5";
+        }
     }
 }
