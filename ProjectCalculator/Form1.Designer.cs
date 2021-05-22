@@ -48,6 +48,7 @@ namespace ProjectCalculator
             this.btnEquals = new System.Windows.Forms.Button();
             this.btnDot = new System.Windows.Forms.Button();
             this.btnZero = new System.Windows.Forms.Button();
+            this.btnClear = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtBox
@@ -228,11 +229,21 @@ namespace ProjectCalculator
             this.btnZero.Text = "0";
             this.btnZero.UseVisualStyleBackColor = true;
             // 
+            // btnClear
+            // 
+            this.btnClear.Location = new System.Drawing.Point(40, 480);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(95, 90);
+            this.btnClear.TabIndex = 19;
+            this.btnClear.Text = "C";
+            this.btnClear.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(634, 611);
+            this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnZero);
             this.Controls.Add(this.btnDot);
             this.Controls.Add(this.btnEquals);
@@ -280,6 +291,7 @@ namespace ProjectCalculator
         private System.Windows.Forms.Button btnEquals;
         private System.Windows.Forms.Button btnDot;
         private System.Windows.Forms.Button btnZero;
+        private System.Windows.Forms.Button btnClear;
     }
 }
 
