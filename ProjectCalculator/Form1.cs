@@ -29,7 +29,7 @@ namespace ProjectCalculator
 
         private void btnNine_Click(object sender, EventArgs e)
         {
-
+            txtBox.Text = txtBox.Text + "9";
         }
 
         private void btnBack_Click(object sender, EventArgs e)
