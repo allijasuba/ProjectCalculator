@@ -41,6 +41,7 @@ namespace ProjectCalculator
             this.btnMultiply = new System.Windows.Forms.Button();
             this.btnDivide = new System.Windows.Forms.Button();
             this.btnOne = new System.Windows.Forms.Button();
+            this.btnTwo = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtBox
@@ -153,11 +154,21 @@ namespace ProjectCalculator
             this.btnOne.Text = "1";
             this.btnOne.UseVisualStyleBackColor = true;
             // 
+            // btnTwo
+            // 
+            this.btnTwo.Location = new System.Drawing.Point(157, 380);
+            this.btnTwo.Name = "btnTwo";
+            this.btnTwo.Size = new System.Drawing.Size(95, 90);
+            this.btnTwo.TabIndex = 12;
+            this.btnTwo.Text = "2";
+            this.btnTwo.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(634, 611);
+            this.Controls.Add(this.btnTwo);
             this.Controls.Add(this.btnOne);
             this.Controls.Add(this.btnDivide);
             this.Controls.Add(this.btnMultiply);
@@ -191,6 +202,7 @@ namespace ProjectCalculator
         private System.Windows.Forms.Button btnMultiply;
         private System.Windows.Forms.Button btnDivide;
         private System.Windows.Forms.Button btnOne;
+        private System.Windows.Forms.Button btnTwo;
     }
 }
 
