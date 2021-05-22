@@ -36,5 +36,10 @@ namespace ProjectCalculator
         {
 
         }
+
+        private void btnThree_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

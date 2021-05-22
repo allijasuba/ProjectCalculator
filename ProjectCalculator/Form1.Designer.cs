@@ -44,6 +44,7 @@ namespace ProjectCalculator
             this.btnTwo = new System.Windows.Forms.Button();
             this.btnThree = new System.Windows.Forms.Button();
             this.btnMinus = new System.Windows.Forms.Button();
+            this.btnPlus = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtBox
@@ -173,6 +174,7 @@ namespace ProjectCalculator
             this.btnThree.TabIndex = 13;
             this.btnThree.Text = "3";
             this.btnThree.UseVisualStyleBackColor = true;
+            this.btnThree.Click += new System.EventHandler(this.btnThree_Click);
             // 
             // btnMinus
             // 
@@ -184,11 +186,22 @@ namespace ProjectCalculator
             this.btnMinus.Text = "-";
             this.btnMinus.UseVisualStyleBackColor = true;
             // 
+            // btnPlus
+            // 
+            this.btnPlus.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnPlus.Location = new System.Drawing.Point(382, 480);
+            this.btnPlus.Name = "btnPlus";
+            this.btnPlus.Size = new System.Drawing.Size(95, 90);
+            this.btnPlus.TabIndex = 15;
+            this.btnPlus.Text = "+";
+            this.btnPlus.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(634, 611);
+            this.Controls.Add(this.btnPlus);
             this.Controls.Add(this.btnMinus);
             this.Controls.Add(this.btnThree);
             this.Controls.Add(this.btnTwo);
@@ -228,6 +241,7 @@ namespace ProjectCalculator
         private System.Windows.Forms.Button btnTwo;
         private System.Windows.Forms.Button btnThree;
         private System.Windows.Forms.Button btnMinus;
+        private System.Windows.Forms.Button btnPlus;
     }
 }
 
