@@ -167,6 +167,7 @@ namespace ProjectCalculator
             this.btnOne.TabIndex = 11;
             this.btnOne.Text = "1";
             this.btnOne.UseVisualStyleBackColor = true;
+            this.btnOne.Click += new System.EventHandler(this.btnOne_Click);
             // 
             // btnTwo
             // 

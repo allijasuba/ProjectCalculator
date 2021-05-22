@@ -66,5 +66,10 @@ namespace ProjectCalculator
         {
             txtBox.Text = txtBox.Text + "6";
         }
+
+        private void btnOne_Click(object sender, EventArgs e)
+        {
+            txtBox.Text = txtBox.Text + "1";
+        }
     }
 }
