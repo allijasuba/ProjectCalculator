@@ -118,6 +118,7 @@ namespace ProjectCalculator
             this.btnFour.TabIndex = 6;
             this.btnFour.Text = "4";
             this.btnFour.UseVisualStyleBackColor = true;
+            this.btnFour.Click += new System.EventHandler(this.btnFour_Click);
             // 
             // btnFive
             // 
