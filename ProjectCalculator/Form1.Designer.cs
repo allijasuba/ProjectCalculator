@@ -237,6 +237,7 @@ namespace ProjectCalculator
             this.btnZero.TabIndex = 18;
             this.btnZero.Text = "0";
             this.btnZero.UseVisualStyleBackColor = true;
+            this.btnZero.Click += new System.EventHandler(this.btnZero_Click);
             // 
             // btnClear
             // 

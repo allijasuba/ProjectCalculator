@@ -76,5 +76,10 @@ namespace ProjectCalculator
         {
             txtBox.Text = txtBox.Text + "2";
         }
+
+        private void btnZero_Click(object sender, EventArgs e)
+        {
+            txtBox.Text = txtBox.Text + "0";
+        }
     }
 }
