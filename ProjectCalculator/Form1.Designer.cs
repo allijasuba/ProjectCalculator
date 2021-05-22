@@ -53,8 +53,10 @@ namespace ProjectCalculator
             // 
             // txtBox
             // 
+            this.txtBox.Font = new System.Drawing.Font("Segoe UI", 50F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtBox.Location = new System.Drawing.Point(40, 40);
             this.txtBox.Name = "txtBox";
+            this.txtBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtBox.Size = new System.Drawing.Size(550, 100);
             this.txtBox.TabIndex = 0;
             this.txtBox.Text = "";
@@ -67,6 +69,7 @@ namespace ProjectCalculator
             this.button1.TabIndex = 1;
             this.button1.Text = "7";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // btnEight
             // 
