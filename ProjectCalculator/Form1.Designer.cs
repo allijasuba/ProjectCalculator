@@ -42,6 +42,7 @@ namespace ProjectCalculator
             this.btnDivide = new System.Windows.Forms.Button();
             this.btnOne = new System.Windows.Forms.Button();
             this.btnTwo = new System.Windows.Forms.Button();
+            this.btnThree = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtBox
@@ -163,11 +164,21 @@ namespace ProjectCalculator
             this.btnTwo.Text = "2";
             this.btnTwo.UseVisualStyleBackColor = true;
             // 
+            // btnThree
+            // 
+            this.btnThree.Location = new System.Drawing.Point(268, 380);
+            this.btnThree.Name = "btnThree";
+            this.btnThree.Size = new System.Drawing.Size(95, 90);
+            this.btnThree.TabIndex = 13;
+            this.btnThree.Text = "3";
+            this.btnThree.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(634, 611);
+            this.Controls.Add(this.btnThree);
             this.Controls.Add(this.btnTwo);
             this.Controls.Add(this.btnOne);
             this.Controls.Add(this.btnDivide);
@@ -203,6 +214,7 @@ namespace ProjectCalculator
         private System.Windows.Forms.Button btnDivide;
         private System.Windows.Forms.Button btnOne;
         private System.Windows.Forms.Button btnTwo;
+        private System.Windows.Forms.Button btnThree;
     }
 }
 
