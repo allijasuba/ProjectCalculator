@@ -46,5 +46,10 @@ namespace ProjectCalculator
         {
             txtBox.Text = txtBox.Text + "7";
         }
+
+        private void btnEight_Click(object sender, EventArgs e)
+        {
+            txtBox.Text = txtBox.Text + "8";
+        }
     }
 }
