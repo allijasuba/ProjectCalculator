@@ -39,6 +39,7 @@ namespace ProjectCalculator
             this.btnFive = new System.Windows.Forms.Button();
             this.btnSix = new System.Windows.Forms.Button();
             this.btnMultiply = new System.Windows.Forms.Button();
+            this.btnDivide = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtBox
@@ -132,11 +133,22 @@ namespace ProjectCalculator
             this.btnMultiply.Text = "X";
             this.btnMultiply.UseVisualStyleBackColor = true;
             // 
+            // btnDivide
+            // 
+            this.btnDivide.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnDivide.Location = new System.Drawing.Point(495, 280);
+            this.btnDivide.Name = "btnDivide";
+            this.btnDivide.Size = new System.Drawing.Size(95, 90);
+            this.btnDivide.TabIndex = 10;
+            this.btnDivide.Text = "÷";
+            this.btnDivide.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(634, 611);
+            this.Controls.Add(this.btnDivide);
             this.Controls.Add(this.btnMultiply);
             this.Controls.Add(this.btnSix);
             this.Controls.Add(this.btnFive);
@@ -166,6 +178,7 @@ namespace ProjectCalculator
         private System.Windows.Forms.Button btnFive;
         private System.Windows.Forms.Button btnSix;
         private System.Windows.Forms.Button btnMultiply;
+        private System.Windows.Forms.Button btnDivide;
     }
 }
 
