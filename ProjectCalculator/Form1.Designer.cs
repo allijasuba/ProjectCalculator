@@ -34,7 +34,7 @@ namespace ProjectCalculator
             this.btnEight = new System.Windows.Forms.Button();
             this.btnNine = new System.Windows.Forms.Button();
             this.btnBack = new System.Windows.Forms.Button();
-            this.btnAc = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.btnFour = new System.Windows.Forms.Button();
             this.btnFive = new System.Windows.Forms.Button();
             this.btnSix = new System.Windows.Forms.Button();
@@ -49,6 +49,7 @@ namespace ProjectCalculator
             this.btnDot = new System.Windows.Forms.Button();
             this.btnZero = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtBox
@@ -101,14 +102,15 @@ namespace ProjectCalculator
             this.btnBack.UseVisualStyleBackColor = true;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
             // 
-            // btnAc
+            // button1
             // 
-            this.btnAc.Location = new System.Drawing.Point(495, 180);
-            this.btnAc.Name = "btnAc";
-            this.btnAc.Size = new System.Drawing.Size(95, 90);
-            this.btnAc.TabIndex = 5;
-            this.btnAc.Text = "AC";
-            this.btnAc.UseVisualStyleBackColor = true;
+            this.button1.Location = new System.Drawing.Point(495, 180);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(95, 90);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "AC";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.btnButton1_Click);
             // 
             // btnFour
             // 
@@ -249,11 +251,22 @@ namespace ProjectCalculator
             this.btnClear.Text = "C";
             this.btnClear.UseVisualStyleBackColor = true;
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(495, 180);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(95, 90);
+            this.button2.TabIndex = 20;
+            this.button2.Text = "AC";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.btnButton2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(634, 611);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnZero);
             this.Controls.Add(this.btnDot);
@@ -268,7 +281,7 @@ namespace ProjectCalculator
             this.Controls.Add(this.btnSix);
             this.Controls.Add(this.btnFive);
             this.Controls.Add(this.btnFour);
-            this.Controls.Add(this.btnAc);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnNine);
             this.Controls.Add(this.btnEight);
@@ -288,7 +301,7 @@ namespace ProjectCalculator
         private System.Windows.Forms.Button btnEight;
         private System.Windows.Forms.Button btnNine;
         private System.Windows.Forms.Button btnBack;
-        private System.Windows.Forms.Button btnAc;
+        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnFour;
         private System.Windows.Forms.Button btnFive;
         private System.Windows.Forms.Button btnSix;
@@ -303,6 +316,8 @@ namespace ProjectCalculator
         private System.Windows.Forms.Button btnDot;
         private System.Windows.Forms.Button btnZero;
         private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnAc2;
     }
 }
 
