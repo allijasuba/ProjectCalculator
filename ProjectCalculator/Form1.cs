@@ -81,5 +81,10 @@ namespace ProjectCalculator
         {
             txtBox.Text = txtBox.Text + "0";
         }
+
+        private void btnDot_Click(object sender, EventArgs e)
+        {
+            txtBox.Text = txtBox.Text + ".";
+        }
     }
 }
