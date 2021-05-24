@@ -81,7 +81,10 @@ namespace ProjectCalculator
 
         private void btnBack_Click(object sender, EventArgs e)
         {
-
+            if (txtBox.Text.Length > 0)
+            {
+                txtBox.Text = txtBox.Text.Remove(txtBox.Text.Length - 1, 1);
+            }
         }
 
         private void btnThree_Click(object sender, EventArgs e)
