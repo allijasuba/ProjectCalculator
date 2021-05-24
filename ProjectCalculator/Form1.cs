@@ -12,12 +12,11 @@ namespace ProjectCalculator
 {
     public partial class Form1 : Form
     {
-  
+
         public Form1()
         {
             InitializeComponent();
         }
-      
 
         public void disable()
         {
@@ -145,5 +144,12 @@ namespace ProjectCalculator
         {
             disable();
         }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txtBox.Clear();
+        }
     }
+        
+
 }
