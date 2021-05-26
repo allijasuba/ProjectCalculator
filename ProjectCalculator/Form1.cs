@@ -18,6 +18,9 @@ namespace ProjectCalculator
             InitializeComponent();
         }
 
+        float num, ans;
+        int count;
+
         public void disable()
         {
             txtBox.Enabled = false;
@@ -151,6 +154,35 @@ namespace ProjectCalculator
         private void btnClear_Click(object sender, EventArgs e)
         {
             txtBox.Clear();
+        }
+
+        public void compute()
+        {
+                switch(count)
+                {
+                    case 1:
+                    ans = num + float.Parse(txtBox.Text);
+                    txtBox.Text = ans.ToString();
+                    break;
+
+                    case 2:
+                    ans = num - float.Parse(txtBox.Text);
+                    txtBox.Text = ans.ToString();
+                    break;
+
+                    case 3:
+                    ans = num * float.Parse(txtBox.Text);
+                    txtBox.Text = ans.ToString();
+                    break;
+
+                    case 4:
+                    ans = num / float.Parse(txtBox.Text);
+                    txtBox.Text = ans.ToString();
+                    break;
+
+                    default:
+                    break;
+                }
         }
     }
         
