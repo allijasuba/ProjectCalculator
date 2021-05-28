@@ -50,17 +50,21 @@ namespace ProjectCalculator
             this.btnZero = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lbl1 = new System.Windows.Forms.Label();
+            this.label = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtBox
             // 
             this.txtBox.Font = new System.Drawing.Font("Segoe UI", 50F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txtBox.Location = new System.Drawing.Point(40, 40);
+            this.txtBox.Location = new System.Drawing.Point(40, 39);
             this.txtBox.Name = "txtBox";
             this.txtBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.txtBox.Size = new System.Drawing.Size(550, 100);
             this.txtBox.TabIndex = 0;
             this.txtBox.Text = "";
+            this.txtBox.TextChanged += new System.EventHandler(this.txtBox_TextChanged);
             // 
             // btnSeven
             // 
@@ -150,6 +154,7 @@ namespace ProjectCalculator
             this.btnMultiply.TabIndex = 9;
             this.btnMultiply.Text = "X";
             this.btnMultiply.UseVisualStyleBackColor = true;
+            this.btnMultiply.Click += new System.EventHandler(this.btnMultiply_Click);
             // 
             // btnDivide
             // 
@@ -160,6 +165,7 @@ namespace ProjectCalculator
             this.btnDivide.TabIndex = 10;
             this.btnDivide.Text = "÷";
             this.btnDivide.UseVisualStyleBackColor = true;
+            this.btnDivide.Click += new System.EventHandler(this.btnDivide_Click);
             // 
             // btnOne
             // 
@@ -200,6 +206,7 @@ namespace ProjectCalculator
             this.btnMinus.TabIndex = 14;
             this.btnMinus.Text = "-";
             this.btnMinus.UseVisualStyleBackColor = true;
+            this.btnMinus.Click += new System.EventHandler(this.btnMinus_Click);
             // 
             // btnPlus
             // 
@@ -210,6 +217,7 @@ namespace ProjectCalculator
             this.btnPlus.TabIndex = 15;
             this.btnPlus.Text = "+";
             this.btnPlus.UseVisualStyleBackColor = true;
+            this.btnPlus.Click += new System.EventHandler(this.btnPlus_Click);
             // 
             // btnEquals
             // 
@@ -220,6 +228,7 @@ namespace ProjectCalculator
             this.btnEquals.TabIndex = 16;
             this.btnEquals.Text = "=";
             this.btnEquals.UseVisualStyleBackColor = true;
+            this.btnEquals.Click += new System.EventHandler(this.btnEquals_Click);
             // 
             // btnDot
             // 
@@ -262,11 +271,41 @@ namespace ProjectCalculator
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.btnButton2_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(454, 61);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 15);
+            this.label1.TabIndex = 21;
+            // 
+            // lbl1
+            // 
+            this.lbl1.AutoSize = true;
+            this.lbl1.Font = new System.Drawing.Font("Segoe UI", 50F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl1.Location = new System.Drawing.Point(40, 43);
+            this.lbl1.Name = "lbl1";
+            this.lbl1.Size = new System.Drawing.Size(0, 89);
+            this.lbl1.TabIndex = 22;
+            // 
+            // label
+            // 
+            this.label.AutoSize = true;
+            this.label.BackColor = System.Drawing.Color.White;
+            this.label.Font = new System.Drawing.Font("Segoe UI", 45F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label.Location = new System.Drawing.Point(50, 49);
+            this.label.Name = "label";
+            this.label.Size = new System.Drawing.Size(0, 81);
+            this.label.TabIndex = 23;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(634, 611);
+            this.Controls.Add(this.label);
+            this.Controls.Add(this.lbl1);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnZero);
@@ -292,6 +331,7 @@ namespace ProjectCalculator
             this.Text = "Calculator";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -319,6 +359,9 @@ namespace ProjectCalculator
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btnAc2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbl1;
+        private System.Windows.Forms.Label label;
     }
 }
 

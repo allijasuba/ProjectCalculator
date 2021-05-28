@@ -156,6 +156,54 @@ namespace ProjectCalculator
             txtBox.Clear();
         }
 
+        private void btnPlus_Click(object sender, EventArgs e)
+        {
+            num = float.Parse(txtBox.Text);
+            txtBox.Clear();
+            txtBox.Focus();
+            count = 1;
+            label.Text = num.ToString() + "+";
+        }
+
+
+        private void btnMinus_Click(object sender, EventArgs e)
+        {
+            num = float.Parse(txtBox.Text);
+            txtBox.Clear();
+            txtBox.Focus();
+            count = 2;
+            label.Text = num.ToString() + "-";
+        }
+
+        private void btnMultiply_Click(object sender, EventArgs e)
+        {
+            num = float.Parse(txtBox.Text);
+            txtBox.Clear();
+            txtBox.Focus();
+            count = 3;
+            label.Text = num.ToString() + "*";
+        }
+
+        private void btnDivide_Click(object sender, EventArgs e)
+        {
+            num = float.Parse(txtBox.Text);
+            txtBox.Clear();
+            txtBox.Focus();
+            count = 4;
+            label.Text = num.ToString() + "/";
+        }
+
+        private void btnEquals_Click(object sender, EventArgs e)
+        {
+            compute();
+            label.Text = "";
+        }
+
+        private void txtBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
         public void compute()
         {
                 switch(count)
