@@ -74,7 +74,7 @@ namespace ProjectCalculator
             // 
             // btnSeven
             // 
-            this.btnSeven.BackColor = System.Drawing.Color.Thistle;
+            this.btnSeven.BackColor = System.Drawing.SystemColors.ControlLight;
             this.btnSeven.FlatAppearance.BorderSize = 0;
             this.btnSeven.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSeven.Location = new System.Drawing.Point(40, 278);
@@ -87,7 +87,7 @@ namespace ProjectCalculator
             // 
             // btnEight
             // 
-            this.btnEight.BackColor = System.Drawing.Color.Thistle;
+            this.btnEight.BackColor = System.Drawing.SystemColors.ControlLight;
             this.btnEight.FlatAppearance.BorderSize = 0;
             this.btnEight.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEight.Location = new System.Drawing.Point(157, 278);
@@ -100,7 +100,7 @@ namespace ProjectCalculator
             // 
             // btnNine
             // 
-            this.btnNine.BackColor = System.Drawing.Color.Thistle;
+            this.btnNine.BackColor = System.Drawing.SystemColors.ControlLight;
             this.btnNine.FlatAppearance.BorderSize = 0;
             this.btnNine.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNine.Location = new System.Drawing.Point(268, 278);
@@ -113,7 +113,7 @@ namespace ProjectCalculator
             // 
             // btnBack
             // 
-            this.btnBack.BackColor = System.Drawing.Color.Thistle;
+            this.btnBack.BackColor = System.Drawing.SystemColors.ControlLight;
             this.btnBack.FlatAppearance.BorderSize = 0;
             this.btnBack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBack.Location = new System.Drawing.Point(382, 278);
@@ -126,7 +126,7 @@ namespace ProjectCalculator
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Thistle;
+            this.button1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.button1.FlatAppearance.BorderSize = 0;
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Location = new System.Drawing.Point(495, 278);
@@ -139,7 +139,7 @@ namespace ProjectCalculator
             // 
             // btnFour
             // 
-            this.btnFour.BackColor = System.Drawing.Color.Thistle;
+            this.btnFour.BackColor = System.Drawing.SystemColors.ControlLight;
             this.btnFour.FlatAppearance.BorderSize = 0;
             this.btnFour.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFour.Location = new System.Drawing.Point(40, 378);
@@ -152,7 +152,7 @@ namespace ProjectCalculator
             // 
             // btnFive
             // 
-            this.btnFive.BackColor = System.Drawing.Color.Thistle;
+            this.btnFive.BackColor = System.Drawing.SystemColors.ControlLight;
             this.btnFive.FlatAppearance.BorderSize = 0;
             this.btnFive.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnFive.Location = new System.Drawing.Point(157, 378);
@@ -165,7 +165,7 @@ namespace ProjectCalculator
             // 
             // btnSix
             // 
-            this.btnSix.BackColor = System.Drawing.Color.Thistle;
+            this.btnSix.BackColor = System.Drawing.SystemColors.ControlLight;
             this.btnSix.FlatAppearance.BorderSize = 0;
             this.btnSix.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSix.Location = new System.Drawing.Point(268, 378);
@@ -178,7 +178,7 @@ namespace ProjectCalculator
             // 
             // btnMultiply
             // 
-            this.btnMultiply.BackColor = System.Drawing.Color.Thistle;
+            this.btnMultiply.BackColor = System.Drawing.SystemColors.ControlLight;
             this.btnMultiply.FlatAppearance.BorderSize = 0;
             this.btnMultiply.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMultiply.Location = new System.Drawing.Point(382, 378);
@@ -191,7 +191,7 @@ namespace ProjectCalculator
             // 
             // btnDivide
             // 
-            this.btnDivide.BackColor = System.Drawing.Color.Thistle;
+            this.btnDivide.BackColor = System.Drawing.SystemColors.ControlLight;
             this.btnDivide.FlatAppearance.BorderSize = 0;
             this.btnDivide.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDivide.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -205,7 +205,7 @@ namespace ProjectCalculator
             // 
             // btnOne
             // 
-            this.btnOne.BackColor = System.Drawing.Color.Thistle;
+            this.btnOne.BackColor = System.Drawing.SystemColors.ControlLight;
             this.btnOne.FlatAppearance.BorderSize = 0;
             this.btnOne.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOne.Location = new System.Drawing.Point(40, 478);
@@ -218,7 +218,7 @@ namespace ProjectCalculator
             // 
             // btnTwo
             // 
-            this.btnTwo.BackColor = System.Drawing.Color.Thistle;
+            this.btnTwo.BackColor = System.Drawing.SystemColors.ControlLight;
             this.btnTwo.FlatAppearance.BorderSize = 0;
             this.btnTwo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTwo.Location = new System.Drawing.Point(157, 478);
@@ -231,7 +231,7 @@ namespace ProjectCalculator
             // 
             // btnThree
             // 
-            this.btnThree.BackColor = System.Drawing.Color.Thistle;
+            this.btnThree.BackColor = System.Drawing.SystemColors.ControlLight;
             this.btnThree.FlatAppearance.BorderSize = 0;
             this.btnThree.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnThree.Location = new System.Drawing.Point(268, 478);
@@ -244,7 +244,7 @@ namespace ProjectCalculator
             // 
             // btnMinus
             // 
-            this.btnMinus.BackColor = System.Drawing.Color.Thistle;
+            this.btnMinus.BackColor = System.Drawing.SystemColors.ControlLight;
             this.btnMinus.FlatAppearance.BorderSize = 0;
             this.btnMinus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMinus.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -258,7 +258,7 @@ namespace ProjectCalculator
             // 
             // btnPlus
             // 
-            this.btnPlus.BackColor = System.Drawing.Color.Thistle;
+            this.btnPlus.BackColor = System.Drawing.SystemColors.ControlLight;
             this.btnPlus.FlatAppearance.BorderSize = 0;
             this.btnPlus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPlus.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -272,7 +272,7 @@ namespace ProjectCalculator
             // 
             // btnEquals
             // 
-            this.btnEquals.BackColor = System.Drawing.Color.Thistle;
+            this.btnEquals.BackColor = System.Drawing.SystemColors.ControlLight;
             this.btnEquals.FlatAppearance.BorderSize = 0;
             this.btnEquals.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEquals.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -286,7 +286,7 @@ namespace ProjectCalculator
             // 
             // btnDot
             // 
-            this.btnDot.BackColor = System.Drawing.Color.Thistle;
+            this.btnDot.BackColor = System.Drawing.SystemColors.ControlLight;
             this.btnDot.FlatAppearance.BorderSize = 0;
             this.btnDot.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDot.Font = new System.Drawing.Font("Segoe UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -300,7 +300,7 @@ namespace ProjectCalculator
             // 
             // btnZero
             // 
-            this.btnZero.BackColor = System.Drawing.Color.Thistle;
+            this.btnZero.BackColor = System.Drawing.SystemColors.ControlLight;
             this.btnZero.FlatAppearance.BorderSize = 0;
             this.btnZero.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnZero.Location = new System.Drawing.Point(157, 578);
@@ -313,7 +313,7 @@ namespace ProjectCalculator
             // 
             // btnClear
             // 
-            this.btnClear.BackColor = System.Drawing.Color.Thistle;
+            this.btnClear.BackColor = System.Drawing.SystemColors.ControlLight;
             this.btnClear.FlatAppearance.BorderSize = 0;
             this.btnClear.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClear.Location = new System.Drawing.Point(40, 578);
@@ -326,7 +326,7 @@ namespace ProjectCalculator
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.Thistle;
+            this.button2.BackColor = System.Drawing.SystemColors.ControlLight;
             this.button2.FlatAppearance.BorderSize = 0;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Location = new System.Drawing.Point(495, 278);
@@ -366,7 +366,7 @@ namespace ProjectCalculator
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.Thistle;
+            this.button3.BackColor = System.Drawing.SystemColors.ControlLight;
             this.button3.FlatAppearance.BorderSize = 0;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -380,7 +380,7 @@ namespace ProjectCalculator
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.Color.Thistle;
+            this.button5.BackColor = System.Drawing.SystemColors.ControlLight;
             this.button5.FlatAppearance.BorderSize = 0;
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -393,7 +393,7 @@ namespace ProjectCalculator
             // 
             // button6
             // 
-            this.button6.BackColor = System.Drawing.Color.Thistle;
+            this.button6.BackColor = System.Drawing.SystemColors.ControlLight;
             this.button6.FlatAppearance.BorderSize = 0;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -406,7 +406,7 @@ namespace ProjectCalculator
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.Thistle;
+            this.button4.BackColor = System.Drawing.SystemColors.ControlLight;
             this.button4.FlatAppearance.BorderSize = 0;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -419,7 +419,7 @@ namespace ProjectCalculator
             // 
             // button7
             // 
-            this.button7.BackColor = System.Drawing.Color.Thistle;
+            this.button7.BackColor = System.Drawing.SystemColors.ControlLight;
             this.button7.FlatAppearance.BorderSize = 0;
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -432,7 +432,7 @@ namespace ProjectCalculator
             // 
             // button8
             // 
-            this.button8.BackColor = System.Drawing.Color.Thistle;
+            this.button8.BackColor = System.Drawing.SystemColors.ControlLight;
             this.button8.FlatAppearance.BorderSize = 0;
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -447,7 +447,7 @@ namespace ProjectCalculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LavenderBlush;
+            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(631, 696);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button7);
