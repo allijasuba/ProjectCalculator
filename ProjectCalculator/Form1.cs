@@ -204,6 +204,11 @@ namespace ProjectCalculator
 
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
         public void compute()
         {
                 switch(count)
