@@ -77,10 +77,6 @@ namespace ProjectCalculator
 
         }
 
-        private void btnNine_Click(object sender, EventArgs e)
-        {
-            txtBox.Text = txtBox.Text + "9";
-        }
 
         private void btnBack_Click(object sender, EventArgs e)
         {
@@ -88,56 +84,6 @@ namespace ProjectCalculator
             {
                 txtBox.Text = txtBox.Text.Remove(txtBox.Text.Length - 1, 1);
             }
-        }
-
-        private void btnThree_Click(object sender, EventArgs e)
-        {
-            txtBox.Text = txtBox.Text + "3";
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            txtBox.Text = txtBox.Text + "7";
-        }
-
-        private void btnEight_Click(object sender, EventArgs e)
-        {
-            txtBox.Text = txtBox.Text + "8";
-        }
-
-        private void btnFour_Click(object sender, EventArgs e)
-        {
-            txtBox.Text = txtBox.Text + "4";
-        }
-
-        private void btnFive_Click(object sender, EventArgs e)
-        {
-            txtBox.Text = txtBox.Text + "5";
-        }
-
-        private void btnSix_Click(object sender, EventArgs e)
-        {
-            txtBox.Text = txtBox.Text + "6";
-        }
-
-        private void btnOne_Click(object sender, EventArgs e)
-        {
-            txtBox.Text = txtBox.Text + "1";
-        }
-
-        private void btnTwo_Click(object sender, EventArgs e)
-        {
-            txtBox.Text = txtBox.Text + "2";
-        }
-
-        private void btnZero_Click(object sender, EventArgs e)
-        {
-            txtBox.Text = txtBox.Text + "0";
-        }
-
-        private void btnDot_Click(object sender, EventArgs e)
-        {
-            txtBox.Text = txtBox.Text + ".";
         }
 
 
@@ -197,16 +143,6 @@ namespace ProjectCalculator
         {
             compute();
             label.Text = "";
-        }
-
-        private void txtBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
         }
 
         public void compute()
