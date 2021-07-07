@@ -145,6 +145,12 @@ namespace ProjectCalculator
             label.Text = "";
         }
 
+        private void button_click(object sender, EventArgs e)
+        {
+            Button b = (Button)sender;
+            txtBox.Text = txtBox.Text + b.Text;
+        }
+
         public void compute()
         {
                 switch(count)
@@ -154,12 +160,12 @@ namespace ProjectCalculator
                     txtBox.Text = ans.ToString();
                     break;
 
-                    case 2:
+                case 2:
                     ans = num - float.Parse(txtBox.Text);
                     txtBox.Text = ans.ToString();
                     break;
 
-                    case 3:
+                case 3:
                     ans = num * float.Parse(txtBox.Text);
                     txtBox.Text = ans.ToString();
                     break;

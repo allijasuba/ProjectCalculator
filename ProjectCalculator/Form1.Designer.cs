@@ -30,28 +30,15 @@ namespace ProjectCalculator
         private void InitializeComponent()
         {
             this.txtBox = new System.Windows.Forms.RichTextBox();
-            this.btnSeven = new System.Windows.Forms.Button();
-            this.btnEight = new System.Windows.Forms.Button();
-            this.btnNine = new System.Windows.Forms.Button();
             this.btnBack = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.btnFour = new System.Windows.Forms.Button();
-            this.btnFive = new System.Windows.Forms.Button();
-            this.btnSix = new System.Windows.Forms.Button();
             this.btnMultiply = new System.Windows.Forms.Button();
             this.btnDivide = new System.Windows.Forms.Button();
-            this.btnOne = new System.Windows.Forms.Button();
-            this.btnTwo = new System.Windows.Forms.Button();
-            this.btnThree = new System.Windows.Forms.Button();
             this.btnMinus = new System.Windows.Forms.Button();
             this.btnPlus = new System.Windows.Forms.Button();
             this.btnEquals = new System.Windows.Forms.Button();
-            this.btnDot = new System.Windows.Forms.Button();
-            this.btnZero = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lbl1 = new System.Windows.Forms.Label();
             this.label = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
@@ -68,36 +55,31 @@ namespace ProjectCalculator
             this.button18 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.btnSeven = new System.Windows.Forms.Button();
+            this.btnEight = new System.Windows.Forms.Button();
+            this.btnNine = new System.Windows.Forms.Button();
+            this.btnFour = new System.Windows.Forms.Button();
+            this.btnFive = new System.Windows.Forms.Button();
+            this.btnSix = new System.Windows.Forms.Button();
+            this.btnOne = new System.Windows.Forms.Button();
+            this.btnTwo = new System.Windows.Forms.Button();
+            this.btnThree = new System.Windows.Forms.Button();
+            this.btnDot = new System.Windows.Forms.Button();
+            this.btnZero = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.lbl1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtBox
             // 
+            this.txtBox.Font = new System.Drawing.Font("Segoe UI", 60F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtBox.Location = new System.Drawing.Point(40, 29);
             this.txtBox.Name = "txtBox";
-            this.txtBox.Size = new System.Drawing.Size(499, 96);
+            this.txtBox.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.txtBox.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
+            this.txtBox.Size = new System.Drawing.Size(499, 119);
             this.txtBox.TabIndex = 44;
             this.txtBox.Text = "";
-            // 
-            // btnSeven
-            // 
-            this.btnSeven.Location = new System.Drawing.Point(0, 0);
-            this.btnSeven.Name = "btnSeven";
-            this.btnSeven.Size = new System.Drawing.Size(75, 23);
-            this.btnSeven.TabIndex = 43;
-            // 
-            // btnEight
-            // 
-            this.btnEight.Location = new System.Drawing.Point(0, 0);
-            this.btnEight.Name = "btnEight";
-            this.btnEight.Size = new System.Drawing.Size(75, 23);
-            this.btnEight.TabIndex = 42;
-            // 
-            // btnNine
-            // 
-            this.btnNine.Location = new System.Drawing.Point(0, 0);
-            this.btnNine.Name = "btnNine";
-            this.btnNine.Size = new System.Drawing.Size(75, 23);
-            this.btnNine.TabIndex = 41;
             // 
             // btnBack
             // 
@@ -126,27 +108,6 @@ namespace ProjectCalculator
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.btnButton1_Click);
             // 
-            // btnFour
-            // 
-            this.btnFour.Location = new System.Drawing.Point(0, 0);
-            this.btnFour.Name = "btnFour";
-            this.btnFour.Size = new System.Drawing.Size(75, 23);
-            this.btnFour.TabIndex = 40;
-            // 
-            // btnFive
-            // 
-            this.btnFive.Location = new System.Drawing.Point(0, 0);
-            this.btnFive.Name = "btnFive";
-            this.btnFive.Size = new System.Drawing.Size(75, 23);
-            this.btnFive.TabIndex = 39;
-            // 
-            // btnSix
-            // 
-            this.btnSix.Location = new System.Drawing.Point(0, 0);
-            this.btnSix.Name = "btnSix";
-            this.btnSix.Size = new System.Drawing.Size(75, 23);
-            this.btnSix.TabIndex = 38;
-            // 
             // btnMultiply
             // 
             this.btnMultiply.BackColor = System.Drawing.SystemColors.ControlLight;
@@ -174,27 +135,6 @@ namespace ProjectCalculator
             this.btnDivide.Text = "÷";
             this.btnDivide.UseVisualStyleBackColor = false;
             this.btnDivide.Click += new System.EventHandler(this.btnDivide_Click);
-            // 
-            // btnOne
-            // 
-            this.btnOne.Location = new System.Drawing.Point(0, 0);
-            this.btnOne.Name = "btnOne";
-            this.btnOne.Size = new System.Drawing.Size(75, 23);
-            this.btnOne.TabIndex = 37;
-            // 
-            // btnTwo
-            // 
-            this.btnTwo.Location = new System.Drawing.Point(0, 0);
-            this.btnTwo.Name = "btnTwo";
-            this.btnTwo.Size = new System.Drawing.Size(75, 23);
-            this.btnTwo.TabIndex = 36;
-            // 
-            // btnThree
-            // 
-            this.btnThree.Location = new System.Drawing.Point(0, 0);
-            this.btnThree.Name = "btnThree";
-            this.btnThree.Size = new System.Drawing.Size(75, 23);
-            this.btnThree.TabIndex = 35;
             // 
             // btnMinus
             // 
@@ -238,20 +178,6 @@ namespace ProjectCalculator
             this.btnEquals.UseVisualStyleBackColor = false;
             this.btnEquals.Click += new System.EventHandler(this.btnEquals_Click);
             // 
-            // btnDot
-            // 
-            this.btnDot.Location = new System.Drawing.Point(0, 0);
-            this.btnDot.Name = "btnDot";
-            this.btnDot.Size = new System.Drawing.Size(75, 23);
-            this.btnDot.TabIndex = 34;
-            // 
-            // btnZero
-            // 
-            this.btnZero.Location = new System.Drawing.Point(0, 0);
-            this.btnZero.Name = "btnZero";
-            this.btnZero.Size = new System.Drawing.Size(75, 23);
-            this.btnZero.TabIndex = 33;
-            // 
             // btnClear
             // 
             this.btnClear.BackColor = System.Drawing.SystemColors.ControlLight;
@@ -280,28 +206,14 @@ namespace ProjectCalculator
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.btnButton2_Click);
             // 
-            // label1
-            // 
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 23);
-            this.label1.TabIndex = 32;
-            // 
-            // lbl1
-            // 
-            this.lbl1.Location = new System.Drawing.Point(0, 0);
-            this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(100, 23);
-            this.lbl1.TabIndex = 31;
-            // 
             // label
             // 
             this.label.AutoSize = true;
             this.label.BackColor = System.Drawing.Color.White;
-            this.label.Font = new System.Drawing.Font("Segoe UI", 45F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label.Font = new System.Drawing.Font("Segoe UI", 35.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label.Location = new System.Drawing.Point(50, 49);
             this.label.Name = "label";
-            this.label.Size = new System.Drawing.Size(0, 81);
+            this.label.Size = new System.Drawing.Size(0, 62);
             this.label.TabIndex = 23;
             // 
             // button3
@@ -355,6 +267,7 @@ namespace ProjectCalculator
             this.button9.TabIndex = 45;
             this.button9.Text = "7";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button_click);
             // 
             // button10
             // 
@@ -368,6 +281,7 @@ namespace ProjectCalculator
             this.button10.TabIndex = 46;
             this.button10.Text = "8";
             this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button_click);
             // 
             // button11
             // 
@@ -381,6 +295,7 @@ namespace ProjectCalculator
             this.button11.TabIndex = 47;
             this.button11.Text = "9";
             this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button_click);
             // 
             // button12
             // 
@@ -394,6 +309,7 @@ namespace ProjectCalculator
             this.button12.TabIndex = 48;
             this.button12.Text = "4";
             this.button12.UseVisualStyleBackColor = false;
+            this.button12.Click += new System.EventHandler(this.button_click);
             // 
             // button13
             // 
@@ -407,6 +323,7 @@ namespace ProjectCalculator
             this.button13.TabIndex = 49;
             this.button13.Text = "5";
             this.button13.UseVisualStyleBackColor = false;
+            this.button13.Click += new System.EventHandler(this.button_click);
             // 
             // button14
             // 
@@ -420,6 +337,7 @@ namespace ProjectCalculator
             this.button14.TabIndex = 50;
             this.button14.Text = "6";
             this.button14.UseVisualStyleBackColor = false;
+            this.button14.Click += new System.EventHandler(this.button_click);
             // 
             // button15
             // 
@@ -433,6 +351,7 @@ namespace ProjectCalculator
             this.button15.TabIndex = 51;
             this.button15.Text = "3";
             this.button15.UseVisualStyleBackColor = false;
+            this.button15.Click += new System.EventHandler(this.button_click);
             // 
             // button16
             // 
@@ -446,6 +365,7 @@ namespace ProjectCalculator
             this.button16.TabIndex = 52;
             this.button16.Text = "2";
             this.button16.UseVisualStyleBackColor = false;
+            this.button16.Click += new System.EventHandler(this.button_click);
             // 
             // button17
             // 
@@ -459,6 +379,7 @@ namespace ProjectCalculator
             this.button17.TabIndex = 53;
             this.button17.Text = "1";
             this.button17.UseVisualStyleBackColor = false;
+            this.button17.Click += new System.EventHandler(this.button_click);
             // 
             // button18
             // 
@@ -472,6 +393,7 @@ namespace ProjectCalculator
             this.button18.TabIndex = 54;
             this.button18.Text = "0";
             this.button18.UseVisualStyleBackColor = false;
+            this.button18.Click += new System.EventHandler(this.button_click);
             // 
             // button19
             // 
@@ -485,6 +407,7 @@ namespace ProjectCalculator
             this.button19.TabIndex = 55;
             this.button19.Text = ".";
             this.button19.UseVisualStyleBackColor = false;
+            this.button19.Click += new System.EventHandler(this.button_click);
             // 
             // button5
             // 
@@ -498,6 +421,97 @@ namespace ProjectCalculator
             this.button5.TabIndex = 26;
             this.button5.Text = "√";
             this.button5.UseVisualStyleBackColor = false;
+            // 
+            // btnSeven
+            // 
+            this.btnSeven.Location = new System.Drawing.Point(0, 0);
+            this.btnSeven.Name = "btnSeven";
+            this.btnSeven.Size = new System.Drawing.Size(75, 23);
+            this.btnSeven.TabIndex = 43;
+            // 
+            // btnEight
+            // 
+            this.btnEight.Location = new System.Drawing.Point(0, 0);
+            this.btnEight.Name = "btnEight";
+            this.btnEight.Size = new System.Drawing.Size(75, 23);
+            this.btnEight.TabIndex = 42;
+            // 
+            // btnNine
+            // 
+            this.btnNine.Location = new System.Drawing.Point(0, 0);
+            this.btnNine.Name = "btnNine";
+            this.btnNine.Size = new System.Drawing.Size(75, 23);
+            this.btnNine.TabIndex = 41;
+            // 
+            // btnFour
+            // 
+            this.btnFour.Location = new System.Drawing.Point(0, 0);
+            this.btnFour.Name = "btnFour";
+            this.btnFour.Size = new System.Drawing.Size(75, 23);
+            this.btnFour.TabIndex = 40;
+            // 
+            // btnFive
+            // 
+            this.btnFive.Location = new System.Drawing.Point(0, 0);
+            this.btnFive.Name = "btnFive";
+            this.btnFive.Size = new System.Drawing.Size(75, 23);
+            this.btnFive.TabIndex = 39;
+            // 
+            // btnSix
+            // 
+            this.btnSix.Location = new System.Drawing.Point(0, 0);
+            this.btnSix.Name = "btnSix";
+            this.btnSix.Size = new System.Drawing.Size(75, 23);
+            this.btnSix.TabIndex = 38;
+            // 
+            // btnOne
+            // 
+            this.btnOne.Location = new System.Drawing.Point(0, 0);
+            this.btnOne.Name = "btnOne";
+            this.btnOne.Size = new System.Drawing.Size(75, 23);
+            this.btnOne.TabIndex = 37;
+            // 
+            // btnTwo
+            // 
+            this.btnTwo.Location = new System.Drawing.Point(0, 0);
+            this.btnTwo.Name = "btnTwo";
+            this.btnTwo.Size = new System.Drawing.Size(75, 23);
+            this.btnTwo.TabIndex = 36;
+            // 
+            // btnThree
+            // 
+            this.btnThree.Location = new System.Drawing.Point(0, 0);
+            this.btnThree.Name = "btnThree";
+            this.btnThree.Size = new System.Drawing.Size(75, 23);
+            this.btnThree.TabIndex = 35;
+            // 
+            // btnDot
+            // 
+            this.btnDot.Location = new System.Drawing.Point(0, 0);
+            this.btnDot.Name = "btnDot";
+            this.btnDot.Size = new System.Drawing.Size(75, 23);
+            this.btnDot.TabIndex = 34;
+            // 
+            // btnZero
+            // 
+            this.btnZero.Location = new System.Drawing.Point(0, 0);
+            this.btnZero.Name = "btnZero";
+            this.btnZero.Size = new System.Drawing.Size(75, 23);
+            this.btnZero.TabIndex = 33;
+            // 
+            // label1
+            // 
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(100, 23);
+            this.label1.TabIndex = 32;
+            // 
+            // lbl1
+            // 
+            this.lbl1.Location = new System.Drawing.Point(12, 0);
+            this.lbl1.Name = "lbl1";
+            this.lbl1.Size = new System.Drawing.Size(100, 23);
+            this.lbl1.TabIndex = 31;
             // 
             // Form1
             // 
@@ -549,6 +563,7 @@ namespace ProjectCalculator
             this.ShowIcon = false;
             this.Text = "Calculator";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.Click += new System.EventHandler(this.button_click);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -557,28 +572,15 @@ namespace ProjectCalculator
         #endregion
 
         private System.Windows.Forms.RichTextBox txtBox;
-        private System.Windows.Forms.Button btnSeven;
-        private System.Windows.Forms.Button btnEight;
-        private System.Windows.Forms.Button btnNine;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button btnFour;
-        private System.Windows.Forms.Button btnFive;
-        private System.Windows.Forms.Button btnSix;
         private System.Windows.Forms.Button btnMultiply;
         private System.Windows.Forms.Button btnDivide;
-        private System.Windows.Forms.Button btnOne;
-        private System.Windows.Forms.Button btnTwo;
-        private System.Windows.Forms.Button btnThree;
         private System.Windows.Forms.Button btnMinus;
         private System.Windows.Forms.Button btnPlus;
         private System.Windows.Forms.Button btnEquals;
-        private System.Windows.Forms.Button btnDot;
-        private System.Windows.Forms.Button btnZero;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label lbl1;
         private System.Windows.Forms.Label label;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button6;
@@ -595,6 +597,19 @@ namespace ProjectCalculator
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.Button button19;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button btnSeven;
+        private System.Windows.Forms.Button btnEight;
+        private System.Windows.Forms.Button btnNine;
+        private System.Windows.Forms.Button btnFour;
+        private System.Windows.Forms.Button btnFive;
+        private System.Windows.Forms.Button btnSix;
+        private System.Windows.Forms.Button btnOne;
+        private System.Windows.Forms.Button btnTwo;
+        private System.Windows.Forms.Button btnThree;
+        private System.Windows.Forms.Button btnDot;
+        private System.Windows.Forms.Button btnZero;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lbl1;
     }
 }
 
